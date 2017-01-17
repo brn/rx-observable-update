@@ -15,13 +15,13 @@ npm install rx-observable-update --save
 If you use commonjs module resolution.
 
 ```
-jspm install npm:rx-observable -o "{main: 'commonjs/index.js'}"
+jspm install npm:rx-observable-update -o "{main: 'commonjs/index.js'}"
 ```
 
 If you use systemjs module resolution.
 
 ```
-jspm install npm:rx-observable -o "{main: 'systemjs/index.js'}"
+jspm install npm:rx-observable-update -o "{main: 'system/index.js'}"
 ```
 
 **For typescript user**
