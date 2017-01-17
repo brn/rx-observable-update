@@ -22,4 +22,5 @@ function update(initial) {
         return function () { return subscription.unsubscribe(); };
     });
 }
-exports.update = update;
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = update;

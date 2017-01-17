@@ -23,7 +23,7 @@ System.register(["rxjs/Rx"], function (exports_1, context_1) {
             return function () { return subscription.unsubscribe(); };
         });
     }
-    exports_1("update", update);
+    exports_1("default", update);
     var Rx_1;
     return {
         setters: [

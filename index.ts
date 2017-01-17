@@ -188,7 +188,7 @@ A25, A26, A27, A28, A29, A30, A31, A32, A33, A34, A35, A36, A37, A38, A39, A40, 
   ob98?: Observable<A98>, pattern98?: Pattern<R, A98>,
   ob99?: Observable<A99>, pattern99?: Pattern<R, A99>,
 ): Observable<R>;
-export function update(initial, ...patterns) {
+export default function update(initial, ...patterns) {
   return Observable.create(observer => {
     const streams = patterns.filter((_, i) => i % 2 === 0);
     const callbacks = patterns.filter((_, i) => i % 2 !== 0);
